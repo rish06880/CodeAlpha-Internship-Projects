@@ -1,12 +1,31 @@
-# Task 1 — CGPA Calculator (C++)
+#  Task 1 - CGPA Calculator (C++)
 
-*Author:* Rishabh Rajput  
+# Author:
+*Rishabh Rajput*
 
-A simple C++ program to calculate CGPA from semester GPAs or subject marks.
+##  Project Description:
+A simple *C++ program* that calculates *CGPA (Cumulative Grade Point Average)* based on subject marks or grade points entered by the user.  
+This project helps understand *loops, arrays, user input, and arithmetic operations* in C++.
 
-## How to compile & run
+##  Features:
+- Accepts number of subjects and their marks or grades  
+- Calculates total marks and average  
+- Displays final CGPA and percentage  
+- Clean and simple user interface  
+
+# Formula Used:
+gpa=totalGradePoints/totalCredithours
+overallCGPA=totalCGPA/semesters
+
+# Concepts Used:
+- Loops (for)  
+- Arrays  
+- Conditional statements (if-else)  
+- Basic arithmetic operations  
+
+# How to Compile and Run:
 ```bash
-g++ cgpacalculator.cpp -o cgpa
+g++ cgpa.cpp -o cgpa
 ./cgpa
 
 access file code from here...
